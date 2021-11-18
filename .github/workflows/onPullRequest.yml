@@ -4,7 +4,6 @@ on: pull_request
 
 jobs:
   static-code-analysis:
-    name: lint
     runs-on: ubuntu-latest
     if: ${{ false }}
     steps:
